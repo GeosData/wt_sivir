@@ -1,15 +1,13 @@
 <?php
 
-/**
-* 
-*/
+
 class Conect extends PDO
 {
 	private $tipo_bd = 'mysql';
 	private $host = 'localhost';
 	private $bd = 'wtbd_sivir';
-	private $user_bd = 'WTu_Sivir';
-	private $contra = 'WTp_Sivir';
+	private $user_bd = 'wtu_sivir';
+	private $contra = 'wtp_sivir';
 
 	function __construct()
 	{
