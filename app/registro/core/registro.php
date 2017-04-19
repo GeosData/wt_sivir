@@ -1,6 +1,6 @@
 <?php
 
-require_once 'conect.php';
+require_once '../../../core/conect.php';
 
 $conect = new Conect();
 
