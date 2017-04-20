@@ -30,7 +30,7 @@ if ($_POST != null) {
 			$dato = $conect->prepare($sql);
 			$dato->execute();
 		}else{
-			echo "Esta direccion de correo ya esta registrado, intente con otra";
+			echo "Esta direccion de correo ya esta registrada, intente con otra";
 		}
 	}else {
 		echo "Usuario Ya existe, intente con otro";

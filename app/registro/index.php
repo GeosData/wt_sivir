@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="static/css/estilo.css">
 	<title>Registro</title>
 </head>
 <body>
 	<h1>Registro</h1>
 	<div id="form-box">
-		<form action="core/registro.php" method="post">
+		<form id="formregistro" action="core/registro.php" method="post">
 			<input type="text" name="user" placeholder="Usuario" required>
 			<input type="password" name="pass" placeholder="Contraseña" required>
 			<input type="email" name="email" placeholder="Correo Electrónico" required>
